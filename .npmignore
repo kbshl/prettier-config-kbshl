@@ -1,0 +1,25 @@
+### macOS ###
+._*
+.DS_Store
+
+### CVS ###
+.git*
+
+### Node ###
+node_modules
+npm-debug.log
+yarn-error.log
+
+### Code Linting / Quality  ###
+.eslint*
+.editorconfig
+.huskyrc.js
+.lintstagedrc.js
+.prettier*
+!.prettierignore
+.markdownlint*
+.commitlintrc*
+
+### VSCode ###
+.vscode
+.history

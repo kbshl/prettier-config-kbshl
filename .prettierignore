@@ -1,0 +1,19 @@
+### Node ###
+node_modules
+**/package.json
+**/package-lock.json
+
+### Builds ###
+dist
+coverage
+build
+
+### VSCode ###
+.vscode
+.history
+
+### Titanium Mobile ###
+Resources
+app/widgets
+./i18n
+./platform

@@ -1,0 +1,62 @@
+{
+  "name": "prettier-config-kbshl",
+  "version": "0.0.1",
+  "description": "Prettier shareable config for my Javascript based projects (Web and Mobile)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run --silent lint:markdown",
+    "lint:markdown": "markdownlint --config .markdownlint.json README.md",
+    "lint:commit": "commitlint -E HUSKY_GIT_PARAMS",
+    "format": "prettier --write '**/*.js'",
+    "test": ":",
+    "prepublishOnly": "safe-publish-latest",
+    "cm": "npx git-cz",
+    "release": "npx standard-version"
+  },
+  "files": [
+    "index.js",
+    ".prettierignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbshl/prettier-config-kbshl.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "javascript",
+    "style",
+    "styleguide",
+    "lint",
+    "mobile",
+    "app",
+    "alloy",
+    "titanium"
+  ],
+  "author": {
+    "name": "Konstantin Büschel",
+    "email": "konstantin.bueschel+npm@gmail.com",
+    "url": "https://github.com/kbshl"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kbshl/prettier-config-kbshl/issues"
+  },
+  "homepage": "https://github.com/kbshl/prettier-config-kbshl#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.2.1",
+    "lint-staged": "^8.1.0",
+    "markdownlint-cli": "^0.13.0",
+    "prettier": "^1.15.3",
+    "safe-publish-latest": "^1.1.2",
+    "standard-version": "^4.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
