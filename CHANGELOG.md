@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/kbshl/prettier-config-kbshl/compare/v1.0.1...v2.0.0) (2019-01-30)
+
+
+### Features
+
+* add semi back ([9f395a6](https://github.com/kbshl/prettier-config-kbshl/commit/9f395a6))
+
+
+### BREAKING CHANGES
+
+* Set semi back to true
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/kbshl/prettier-config-kbshl/compare/v1.0.0...v1.0.1) (2019-01-18)
 
